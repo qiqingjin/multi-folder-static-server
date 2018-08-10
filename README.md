@@ -6,7 +6,7 @@ Static files server which can host multiple folders
 
 1. run `npm install`
 2. run `node server folder1 folder2 ... -p port -s true/false -r root`
-3. `-p` - port number (default 3000), `-s` - whether use `hppts` (default false), `-r` - url root path (default is null)
+3. `-p` - port number (default 3000), `-s` - whether use `https` (default false), `-r` - url root path (default is null)
 4. visit `[http|https]://localhost:[port]/root/[yourFileName]` to get your static files
 
 # Example
