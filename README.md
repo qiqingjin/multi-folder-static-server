@@ -13,5 +13,5 @@ Static files server which can host multiple folders
 ```js
 node server ./ ./node_modules -p 3002 -s true -r /src
 // serve at ./ and ./node_modules, port 3002, use https
-// file `./node_modules/a/index.js` can be got from url `https://locahost:3002/src/a/index.js`
+// file `./node_modules/a/index.js` can be gotten from url `https://locahost:3002/src/a/index.js`
 ```
