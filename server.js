@@ -31,6 +31,7 @@ folders.forEach((f) => {
 	if(!root){
 		app.use(static_serve(path.join(__dirname, f), {maxage: 31557600000, gzip: false}));
 	}else{
+		console.log('-root', root);
 		app.use(mount(root, static_serve(path.join(__dirname, f), {maxage: 31557600000, gzip: false})));
 	}
 });
